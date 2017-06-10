@@ -1,6 +1,5 @@
 import numpy as np
 
-
 def Step(y, t = 0):
     temp = np.copy(y)
     out1 = y >= 0
