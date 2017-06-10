@@ -1,0 +1,112 @@
+--- REGION --- 
+original url: 
+['\\AutoEncoder\\Datasets\\simf1' '\\AutoEncoder\\Datasets\\simf2'
+ '\\AutoEncoder\\Datasets\\sim']
+input (clean) suffix: normal.jpg
+input (noised) suffix: noised.jpg
+output (training result) suffix: after.jpg
+noise multiplier: 0.2
+Initial Error: 0.0156823949763
+epoch: 1
+learning rate: 0.0001
+Error Rate: 0.219026089636
+
+--- REGION --- 
+original url: 
+['\\AutoEncoder\\Datasets\\simf1' '\\AutoEncoder\\Datasets\\simf2'
+ '\\AutoEncoder\\Datasets\\sim']
+input (clean) suffix: normal.jpg
+input (noised) suffix: noised.jpg
+output (training result) suffix: after.jpg
+noise multiplier: Initial Error: 0.0163939018326
+epoch: 10
+learning rate: 0.0001
+Error Rate: 0.129487356087
+
+--- REGION --- 
+original url: 
+['\\AutoEncoder\\Datasets\\simf1' '\\AutoEncoder\\Datasets\\simf2'
+ '\\AutoEncoder\\Datasets\\sim']
+input (clean) suffix: normal.jpg
+input (noised) suffix: noised.jpg
+output (training result) suffix: after.jpg
+noise multiplier: 0.2
+Initial Error: 0.0149463560169
+epoch: 50
+learning rate: 0.0001
+Error Rate: 0.00963889313133
+
+--- REGION --- 
+original url: 
+['\\AutoEncoder\\Datasets\\simf1' '\\AutoEncoder\\Datasets\\simf2'
+ '\\AutoEncoder\\Datasets\\sim']
+input (clean) suffix: normal.jpg
+input (noised) suffix: noised.jpg
+output (training result) suffix: after.jpg
+noise multiplier: 0.2
+Initial Error: 0.0141587553505
+epoch: 100
+learning rate: 0.0001
+Error Rate: 0.0020957356839
+
+-- NOTE: higher epoch better result
+
+
+--- REGION --- 
+original url: 
+['\\AutoEncoder\\Datasets\\simf1' '\\AutoEncoder\\Datasets\\simf2'
+ '\\AutoEncoder\\Datasets\\sim']
+input (clean) suffix: normal.jpg
+input (noised) suffix: noised.jpg
+output (training result) suffix: after.jpg
+noise multiplier: 0.1
+Initial Error: 0.0146940407536
+epoch: 50
+learning rate: 0.005
+Error Rate: 0.534438386351
+
+--- REGION --- 
+original url: 
+['\\AutoEncoder\\Datasets\\simf1' '\\AutoEncoder\\Datasets\\simf2'
+ '\\AutoEncoder\\Datasets\\sim']
+input (clean) suffix: normal.jpg
+input (noised) suffix: noised.jpg
+output (training result) suffix: after.jpg
+noise multiplier: 0.1
+Initial Error: 0.0149286848648
+epoch: 100
+learning rate: 0.005
+Error Rate: 0.411028757677
+
+-- NOTE: learning rate too high
+
+ 
+
+--- REGION --- 
+original url: 
+['\\AutoEncoder\\Datasets\\simf1' '\\AutoEncoder\\Datasets\\simf2'
+ '\\AutoEncoder\\Datasets\\sim']
+input (clean) suffix: normal.jpg
+input (noised) suffix: noised.jpg
+output (training result) suffix: after.jpg
+noise multiplier: 0.9
+Initial Error: 0.0509926828143
+epoch: 10
+learning rate: 0.0001
+Error Rate: 0.125857482523
+
+--- REGION --- 
+original url: 
+['\\AutoEncoder\\Datasets\\simf1' '\\AutoEncoder\\Datasets\\simf2'
+ '\\AutoEncoder\\Datasets\\sim']
+input (clean) suffix: normal.jpg
+input (noised) suffix: noised.jpg
+output (training result) suffix: after.jpg
+noise multiplier: 0.9
+Initial Error: 0.0388345590158
+epoch: 100
+learning rate: 0.0001
+Error Rate: 0.00202033783941
+
+-- NOTE: appropriate learning rate can fix high noise multiplier
+

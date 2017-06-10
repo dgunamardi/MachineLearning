@@ -1,0 +1,84 @@
+--- REGION --- 
+input: 
+[[0 0]
+ [0 1]
+ [1 0]
+ [1 1]]
+weight: 
+[[[ 0.1]
+  [-0.3]]]
+learning rate: 0.1
+target: 
+[0 0 1 1]
+total epoch: 2
+
+
+final weight: 
+[[[ 0.2]
+  [-0.2]]]
+final output: 
+[[[ 1.]]
+
+ [[ 0.]]
+
+ [[ 1.]]
+
+ [[ 1.]]]
+
+
+--- REGION --- 
+input: 
+[[0 0]
+ [0 1]
+ [1 0]
+ [1 1]]
+weight: 
+[[[ 0.1]
+  [-0.3]]]
+learning rate: 0.1
+target: 
+[0 0 1 1]
+total epoch: 2
+
+
+final weight: 
+[[[ 0.2]
+  [-0.2]]]
+final output: 
+[[[ 1.]]
+
+ [[ 0.]]
+
+ [[ 1.]]
+
+ [[ 1.]]]
+
+
+--- REGION --- 
+input: 
+[[0 0]
+ [0 1]
+ [1 0]
+ [1 1]]
+weight: 
+[[[ 0.1]
+  [-0.3]]]
+learning rate: 0.1
+target: 
+[0 0 1 1]
+total epoch: 2
+
+
+final weight: 
+[[[ 0.2]
+  [-0.2]]]
+final output: 
+[[[ 1.]]
+
+ [[ 0.]]
+
+ [[ 1.]]
+
+ [[ 1.]]]
+
+
